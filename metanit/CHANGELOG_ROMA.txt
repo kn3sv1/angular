@@ -1,0 +1,5 @@
+https://metanit.com/web/angular2/1.1.php
+"@angular/common": "~8.0.0" >>> "@angular/common": "~8.2.0",
+
+
+"typescript": "^3.5.0", >> "typescript": "^3.7.0",

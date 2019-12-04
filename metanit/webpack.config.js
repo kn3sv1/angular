@@ -1,6 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 module.exports = {
+    devtool: 'source-map',
     entry: {
         'polyfills': './src/polyfills.ts',
         'app': './src/main.ts'

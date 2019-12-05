@@ -1,0 +1,4 @@
+https://dev.to/kumar_abhirup/weekend-task-write-your-first-typescript-package-and-publish-it-to-npm-4859
+
+
+https://github.com/KumarAbhirup/typescript-boilerplate

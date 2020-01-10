@@ -1,0 +1,10 @@
+https://www.udemy.com/course/angular-complete-guide/learn/lecture/15673888#overview
+
+npm cache clean --force 
+npm clean-install
+npm cache clean
+
+r_satanovskyi@NIC1-W-PC-08455 MINGW64 ~/projects/angular/angular8 (master)
+$ ng new angular-basics --style=scss
+
+https://stackoverflow.com/questions/36220256/angular-cli-sass-options

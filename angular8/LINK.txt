@@ -8,3 +8,10 @@ r_satanovskyi@NIC1-W-PC-08455 MINGW64 ~/projects/angular/angular8 (master)
 $ ng new angular-basics --style=scss
 
 https://stackoverflow.com/questions/36220256/angular-cli-sass-options
+
+
+*********************GIT****************************
+git checkout -b angular8
+
+Envy@DESKTOP-D3CG9B9 MINGW64 /e/projects/angular (angular8)
+$ git push -u origin angular8

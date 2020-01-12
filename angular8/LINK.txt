@@ -15,3 +15,7 @@ git checkout -b angular8
 
 Envy@DESKTOP-D3CG9B9 MINGW64 /e/projects/angular (angular8)
 $ git push -u origin angular8
+
+
+git checkout -b angular8_angular-basics
+$ git push -u origin angular8_angular-basics

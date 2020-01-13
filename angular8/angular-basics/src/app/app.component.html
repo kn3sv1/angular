@@ -1,4 +1,41 @@
 <h1>Hello Angulat World!</h1>
+
+<div
+*ngFor="let p of posts"
+>
+    {{p.title}} - {{p.text}} - {{p.id}}
+</div>
+
+<ul>
+    <li *ngFor="let n of arr; let idx = index">
+      {{idx + 1}}  <strong>{{ n }}</strong>
+    </li>
+</ul>
+
+<button (click)="backgroundToggle = !backgroundToggle">Toggle</button>
+<div [ngStyle]="{
+    width: '200px',
+    height: '200px',
+    borderRadius: '5px',
+    border: '1px solid #ccc',
+    background: backgroundToggle ? 'red' : 'blue'
+}">
+</div>
+<p [ngClass]="{
+    red: backgroundToggle,
+    blue: !backgroundToggle
+}">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, molestias?</p>
+
+<p
+    [class.blue]="!backgroundToggle"
+    [class.red]="backgroundToggle"
+>Lorem ipsum dolor sit amet, consectetur adipisic1111111111111111111111?</p>
+
+
+<p *ngIf="backgroundToggle; else blueP" >Lorem ipsum dolor sit amet, consectetur adipisic122222?</p>
+<ng-template #blueP><p>2222222222222222</p></ng-template>
+
+
 <p>{{ title }}</p>
 <p><strong>{{ number }}</strong></p>
 <p>{{ arr }}</p>

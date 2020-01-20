@@ -1,0 +1,4 @@
+https://www.udemy.com/course/angular-mastering-the-basics/learn/lecture/10121082#content
+
+
+https://stackoverflow.com/questions/41822356/subscribe-to-the-same-stream-in-2-different-components-in-angular-2-with-rxjs
